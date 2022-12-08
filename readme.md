@@ -22,11 +22,11 @@ CTP_API_URL=https://api.europe-west1.gcp.commercetools.com
 CTP_SCOPES=manage_project:ns-stations-demo
 ```
 
-install the language server client for Deno in vscode, to make sure that vscode understands your code is for Deno and not for Node.
+install the [language server](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno) client for Deno in vscode, to make sure that vscode understands your code is for Deno and not for Node.
 
 ***using the api***
 ```javascript
-import {sdk, Project} from "https://deno.land/x/commercetools@0.0.2/mod.ts";
+import {sdk, Project} from "https://deno.land/x/commercetools@0.0.3/api.ts";
 
 async function project(handle: sdk): Promise<Project>
 {
