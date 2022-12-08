@@ -1,7 +1,11 @@
-import { basesdk } from "./abstract/basesdk.ts"
-import { isdk } from "./interface/isdk.ts"
-import { Config, iConfig, sdkRoot, sdkClient } from "../mod.ts"
+import {iConfig } from './interface/iConfig.ts'
 import { loglevel } from "./interface/iLogger.ts";
+import { isdk } from "./interface/isdk.ts"
+
+import { Config } from './Config.ts'
+import { basesdk } from "./abstract/basesdk.ts"
+import { sdkClient } from "./sdkClient.ts"
+import {ApiRoot as sdkRoot} from "./sdkClient.ts"
 
 export class sdk extends basesdk implements isdk{
    private static instance: sdk;
