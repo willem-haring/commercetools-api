@@ -4,7 +4,7 @@ import { ClientBuilder } from "npm:@commercetools/sdk-client-v2"
 import { createApiBuilderFromCtpClient, ApiRoot } from "npm:@commercetools/importapi-sdk"
 import { loglevel } from "./interface/iLogger.ts"
 export { ApiRoot } from "npm:@commercetools/importapi-sdk"
-export * from "npm:@commercetools/importapi-sdk"
+export * as importsdkapi from "npm:@commercetools/importapi-sdk"
 
 export class importClient {
    protected _config: iConfig

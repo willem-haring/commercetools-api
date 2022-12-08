@@ -1,6 +1,8 @@
-![commercetools logo](https://commercetools.com/_build/images/logos/commercetools-logo-desktop.svg)
+<img src="https://deno.land/logo.svg" width=40px/>
+<img src="https://commercetools.com/_build/images/logos/commercetools-logo-desktop.svg" width=150px/>
+
+
 # deno commercetools api 🦕
-![deno](https://deno.land/logo.svg)
 ## A small helper for using commercetools in combination with the deno runtime
 
 ***How to get started***
